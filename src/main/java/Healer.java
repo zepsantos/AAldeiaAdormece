@@ -15,5 +15,10 @@ public class Healer extends Player {
             channel.createMessage("Villager").block();
     }
 
+    @Override
+    void doRolePapel(Game game, RolePapelFinishCallback callback) {
+
+    }
+
 
 }

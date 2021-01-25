@@ -53,7 +53,7 @@ public class Game {
         advertiseRoles();
         channel.createMessage("A aldeia adormece...").block();
         channel.createMessage("O lobo acorda e escolhe uma pessoa para matar").block();
-
+        executeWolfRole();
     }
 
 
