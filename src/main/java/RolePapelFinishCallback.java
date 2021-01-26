@@ -1,3 +1,3 @@
 public interface RolePapelFinishCallback {
-    void onComplete();
+    void onComplete(String playerName);
 }

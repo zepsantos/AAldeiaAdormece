@@ -15,6 +15,15 @@ public abstract class Player {
 
     }
 
+
+    public void setKilled() {
+        this.alive = false;
+    }
+
+    public void setAlive() {
+        this.alive = true;
+    }
+
     public User getDiscordUser() {
         return discordUser;
     }
